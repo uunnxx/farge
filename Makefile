@@ -1,4 +1,4 @@
-DEST ?= /usr/bin
+DEST ?= ${HOME}/.local/bin
 
 all:
 	@echo Run \'make install\' to install farge

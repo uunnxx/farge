@@ -40,7 +40,7 @@ $ git clone https://github.com/sdushantha/farge
 $ cd farge
 
 # Install it
-$ sudo make install
+$ make install  # $HOME/.local/bin/farge
 ```
 
 ### Install it locally
