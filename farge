@@ -174,7 +174,7 @@ main() {
 
     if [ $WRITE_COLOR_CODE == true ]; then
         # Write the color code in the center of the image
-        convert "$FNAME" -gravity Center -pointsize 10 -fill "$TEXT_COLOR" -annotate 0 "$COLOR_CODE" -font "Comfortaa" "$FNAME"
+        convert "$FNAME" -gravity Center -pointsize 15 -fill "$TEXT_COLOR" -annotate 0 "$COLOR_CODE" -font "Comfortaa" "$FNAME"
     fi
 
     # Save the color code to clipboard
